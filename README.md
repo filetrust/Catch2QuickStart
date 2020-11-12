@@ -1,10 +1,10 @@
 # Catch2QuickStart
-This is a quick start to utilising the Catch2 unit testing framework and demonstrate how we can unit test C++ code. Utilising Catch2 just requires a single header file downloadable from [Catch2](https://github.com/catchorg/Catch2) that needs to be compiled into a test project.
+This is a quick start to utilising the Catch2 unit testing framework and demonstrates how we can unit test C++ code. Utilising Catch2 just requires a single header file downloadable from [Catch2](https://github.com/catchorg/Catch2) that needs to be compiled into a test project.
 
 The Catch2QuickStart solution has two projects:
 
-- A project with to illustrate code under test
-- A unit test project that to illustrate unit testing with Catch2. 
+- A project to illustrate code under test
+- A unit test project to illustrate unit testing with Catch2. 
 
 ### Code Under Test Project
 
@@ -48,7 +48,7 @@ Consider a project that has the following code that we would like to unit test:
 
 ### The Unit Test Project
 
- A standard unit test project, a standard executable, is created as follows:
+ A standard unit test project, a standard console executable, is created and then:
 
 - The download catch2 header file, *catch.hpp*, is added to the project
 - A *main.test.cpp* is created to include the *catch.hpp* **once** only.
